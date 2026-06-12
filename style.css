@@ -271,6 +271,13 @@ body {
     .menu-container{
         display: none;
     }
+    .sidebar {
+        display: none;
+    }
+    .content-container {
+        margin-left: 0;
+        padding-left: 0;
+    }
 }
 
 /* Small Phones */
@@ -321,6 +328,15 @@ body {
 
 /* Mobile Scroll Fix */
 @media screen and (max-width: 768px) {
+
+  .sidebar {
+    display: none;
+  }
+
+  .content-container {
+    margin-left: 0;
+    padding-left: 0;
+  }
 
   .movie-list-wrapper {
     overflow-x: auto;
