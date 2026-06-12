@@ -274,6 +274,22 @@ body {
     .sidebar {
         display: none;
     }
+    .navbar-container {
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+    .logo-container {
+        flex: 0 0 auto;
+    }
+    .profile-container {
+        flex: 0 0 auto;
+        justify-content: flex-end;
+        gap: 10px;
+    }
+    .profile-text-container {
+        margin: 0 10px 0 0;
+        white-space: nowrap;
+    }
     .content-container {
         margin-left: 0;
         padding-left: 0;
